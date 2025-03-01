@@ -75,10 +75,8 @@ def func(l):
 even_list, odd_list=func(l)
 print(even_list, odd_list)
 
-#Görev6
-#hocaya sor!
 
-#Görev7
+#Görev6
 ders_kodu = ["CMP1005", "PSY1001", "HUK1005" , "SEN2204" ]
 kredi = [3,4,2,4]
 kontenjan = [30,75,150,25]
@@ -86,7 +84,7 @@ for a,b,c in zip(ders_kodu, kredi, kontenjan):
     print("Kredisi",b ,"olan", a,"kodlu dersin kontenjani",c, "kisiliktir.")
 
 
-#Görev8
+#Görev7
 kume1 = set(["data", "python"] )
 kume2 = set(["data", "function", "qcut", "lambda", "python", "miuul"])
 
